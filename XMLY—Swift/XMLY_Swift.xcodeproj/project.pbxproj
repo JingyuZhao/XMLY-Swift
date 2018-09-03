@@ -59,6 +59,14 @@
 		F3087B0921392F6A005AB2BC /* HomeRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3087B0821392F6A005AB2BC /* HomeRecommendViewModel.swift */; };
 		F3087B0C21393039005AB2BC /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3087B0B21393039005AB2BC /* URefresh.swift */; };
 		F3087B0E213936FC005AB2BC /* HomeRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3087B0D213936FC005AB2BC /* HomeRecommendModel.swift */; };
+		F35761BB213CD94C00C3AFC2 /* FMRecommendApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761BA213CD94C00C3AFC2 /* FMRecommendApi.swift */; };
+		F35761BD213D04DA00C3AFC2 /* FMRecommendGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761BC213D04DA00C3AFC2 /* FMRecommendGridCell.swift */; };
+		F35761BF213D04F300C3AFC2 /* RecommendNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761BE213D04F300C3AFC2 /* RecommendNewsCell.swift */; };
+		F35761C3213D268F00C3AFC2 /* FMGuessYouLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761C2213D268F00C3AFC2 /* FMGuessYouLikeCell.swift */; };
+		F35761C5213D2F3900C3AFC2 /* HotAudiobookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761C4213D2F3800C3AFC2 /* HotAudiobookCell.swift */; };
+		F35761C7213D31AA00C3AFC2 /* OneKeyListenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761C6213D31AA00C3AFC2 /* OneKeyListenCell.swift */; };
+		F35761C9213D322600C3AFC2 /* RecommendLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761C8213D322600C3AFC2 /* RecommendLiveCell.swift */; };
+		F35761CB213D329D00C3AFC2 /* RecommendForYouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761CA213D329D00C3AFC2 /* RecommendForYouCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +131,14 @@
 		F3087B0821392F6A005AB2BC /* HomeRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendViewModel.swift; sourceTree = "<group>"; };
 		F3087B0B21393039005AB2BC /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
 		F3087B0D213936FC005AB2BC /* HomeRecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendModel.swift; sourceTree = "<group>"; };
+		F35761BA213CD94C00C3AFC2 /* FMRecommendApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMRecommendApi.swift; sourceTree = "<group>"; };
+		F35761BC213D04DA00C3AFC2 /* FMRecommendGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMRecommendGridCell.swift; sourceTree = "<group>"; };
+		F35761BE213D04F300C3AFC2 /* RecommendNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendNewsCell.swift; sourceTree = "<group>"; };
+		F35761C2213D268F00C3AFC2 /* FMGuessYouLikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMGuessYouLikeCell.swift; sourceTree = "<group>"; };
+		F35761C4213D2F3800C3AFC2 /* HotAudiobookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotAudiobookCell.swift; sourceTree = "<group>"; };
+		F35761C6213D31AA00C3AFC2 /* OneKeyListenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneKeyListenCell.swift; sourceTree = "<group>"; };
+		F35761C8213D322600C3AFC2 /* RecommendLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendLiveCell.swift; sourceTree = "<group>"; };
+		F35761CA213D329D00C3AFC2 /* RecommendForYouCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendForYouCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +278,7 @@
 		F3087A8B2139052B005AB2BC /* FMHome */ = {
 			isa = PBXGroup;
 			children = (
+				F35761B9213CD91200C3AFC2 /* Api */,
 				F3087A9221390563005AB2BC /* Controller */,
 				F3087A9321390563005AB2BC /* Model */,
 				F3087A9421390563005AB2BC /* View */,
@@ -354,6 +371,13 @@
 				F3087B0221392E13005AB2BC /* FMOneKeyListenCell.swift */,
 				F3087B0421392E21005AB2BC /* FMRecommendForYouCell.swift */,
 				F3087B0621392E2D005AB2BC /* FMHomeRecommendLiveCell.swift */,
+				F35761BC213D04DA00C3AFC2 /* FMRecommendGridCell.swift */,
+				F35761BE213D04F300C3AFC2 /* RecommendNewsCell.swift */,
+				F35761C2213D268F00C3AFC2 /* FMGuessYouLikeCell.swift */,
+				F35761C4213D2F3800C3AFC2 /* HotAudiobookCell.swift */,
+				F35761C6213D31AA00C3AFC2 /* OneKeyListenCell.swift */,
+				F35761C8213D322600C3AFC2 /* RecommendLiveCell.swift */,
+				F35761CA213D329D00C3AFC2 /* RecommendForYouCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -556,6 +580,14 @@
 			path = Refresh;
 			sourceTree = "<group>";
 		};
+		F35761B9213CD91200C3AFC2 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F35761BA213CD94C00C3AFC2 /* FMRecommendApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -710,6 +742,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3087AB221390654005AB2BC /* FMPlayerViewController.swift in Sources */,
+				F35761BF213D04F300C3AFC2 /* RecommendNewsCell.swift in Sources */,
 				F3087AA8213905FE005AB2BC /* BaseNavigationController.swift in Sources */,
 				F3087A842138EA84005AB2BC /* UtilsDefine.swift in Sources */,
 				F3087AEF21391FB8005AB2BC /* HomeVipViewController.swift in Sources */,
@@ -717,16 +750,19 @@
 				F3087B0C21393039005AB2BC /* URefresh.swift in Sources */,
 				F3087AF321391FDA005AB2BC /* HomeBroadcastViewController.swift in Sources */,
 				F3087AC521390ABC005AB2BC /* WRNavigationBar.swift in Sources */,
+				F35761BB213CD94C00C3AFC2 /* FMRecommendApi.swift in Sources */,
 				F3087AB721390822005AB2BC /* YYBasicContentView.swift in Sources */,
 				F3087A822138EA30005AB2BC /* Apprence.swift in Sources */,
 				F3087AB921390822005AB2BC /* YYIrregularityContentView.swift in Sources */,
 				F3087A882138EC86005AB2BC /* AppDelegate+AppService.swift in Sources */,
 				F3087AB021390647005AB2BC /* FMMineViewController.swift in Sources */,
+				F35761C3213D268F00C3AFC2 /* FMGuessYouLikeCell.swift in Sources */,
 				F3087AAC2139062C005AB2BC /* FMFindViewController.swift in Sources */,
 				F3087AC121390ABC005AB2BC /* WRCustomNavigationBar.swift in Sources */,
 				F3087AF721392C29005AB2BC /* FMRecommendHeaderView.swift in Sources */,
 				F3087B0721392E2D005AB2BC /* FMHomeRecommendLiveCell.swift in Sources */,
 				F3087AAE2139063A005AB2BC /* FMListenViewController.swift in Sources */,
+				F35761C7213D31AA00C3AFC2 /* OneKeyListenCell.swift in Sources */,
 				F3087AB821390822005AB2BC /* YYBouncesContentView.swift in Sources */,
 				F3087AE221391AB1005AB2BC /* UIImage+GIF.swift in Sources */,
 				F3087A6A2138E51F005AB2BC /* AppDelegate.swift in Sources */,
@@ -742,6 +778,7 @@
 				F3087AE521391AB1005AB2BC /* UINavigationBar+YHIndicatorImage.m in Sources */,
 				F3087AEB21391F9C005AB2BC /* HomeReCommendViewController.swift in Sources */,
 				F3087AAA2139061E005AB2BC /* FMHomeViewController.swift in Sources */,
+				F35761C5213D2F3900C3AFC2 /* HotAudiobookCell.swift in Sources */,
 				F3087AF921392CDB005AB2BC /* FMRecommendFooterView.swift in Sources */,
 				F3087AA6213905E0005AB2BC /* BaseViewController.swift in Sources */,
 				F3087B0321392E13005AB2BC /* FMOneKeyListenCell.swift in Sources */,
@@ -750,9 +787,12 @@
 				F3087AF121391FC4005AB2BC /* HomeLiveViewController.swift in Sources */,
 				F3087ADE21391AB1005AB2BC /* HHGuidePageHUD.swift in Sources */,
 				F3087A862138EAA2005AB2BC /* ThridInfo.swift in Sources */,
+				F35761CB213D329D00C3AFC2 /* RecommendForYouCell.swift in Sources */,
 				F3087AFF21392D5C005AB2BC /* FMHotAudiobookCell.swift in Sources */,
 				F3087AC321390ABC005AB2BC /* WRCycleScrollView.swift in Sources */,
+				F35761C9213D322600C3AFC2 /* RecommendLiveCell.swift in Sources */,
 				F3087B0E213936FC005AB2BC /* HomeRecommendModel.swift in Sources */,
+				F35761BD213D04DA00C3AFC2 /* FMRecommendGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -256,7 +256,7 @@ struct LiveModel:HandyJSON {
     var status: Int = 0
     var uid: Int = 0
 }
-struct RecommendAdvertModel {
+struct RecommendAdvertModel:HandyJSON {
     var shareData: AdvertShareData?
     var isShareFlag: Bool = false
     var thirdStatUrl: String?
