@@ -25,6 +25,7 @@ class FMRecommendGridCell: UICollectionViewCell {
         didSet{
             guard let model = square else {return}
             self.titleLabel.text = model.title
+            self.imageView.kf.setImage(with: URL.init(string: model.coverPath!)!)
         }
     }
     

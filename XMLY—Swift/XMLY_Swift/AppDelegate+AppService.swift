@@ -20,7 +20,7 @@ extension AppDelegate {
         self.window?.rootViewController = tab;
         self.window?.makeKeyAndVisible();
         
-        setStaticGuidePage()
+//        setStaticGuidePage()
 //        setDynamicGuidePage()
 //        setVideoGuidePage()
     }

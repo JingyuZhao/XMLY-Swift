@@ -67,6 +67,27 @@
 		F35761C7213D31AA00C3AFC2 /* OneKeyListenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761C6213D31AA00C3AFC2 /* OneKeyListenCell.swift */; };
 		F35761C9213D322600C3AFC2 /* RecommendLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761C8213D322600C3AFC2 /* RecommendLiveCell.swift */; };
 		F35761CB213D329D00C3AFC2 /* RecommendForYouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761CA213D329D00C3AFC2 /* RecommendForYouCell.swift */; };
+		F35761DB213E1FC800C3AFC2 /* HomeClassifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761DA213E1FC800C3AFC2 /* HomeClassifyModel.swift */; };
+		F35761DF213E217A00C3AFC2 /* HomeClassifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761DE213E217A00C3AFC2 /* HomeClassifyViewModel.swift */; };
+		F35761E1213E22BD00C3AFC2 /* FMClassifyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761E0213E22BD00C3AFC2 /* FMClassifyApi.swift */; };
+		F35761E3213E2CB600C3AFC2 /* HomeClassifyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761E2213E2CB600C3AFC2 /* HomeClassifyHeaderView.swift */; };
+		F35761E5213E2CC200C3AFC2 /* HomeClassifyFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761E4213E2CC200C3AFC2 /* HomeClassifyFooterView.swift */; };
+		F35761E7213E2CD400C3AFC2 /* HomeClassifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761E6213E2CD400C3AFC2 /* HomeClassifyCell.swift */; };
+		F35761E9213E5A8C00C3AFC2 /* FMListenHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761E8213E5A8C00C3AFC2 /* FMListenHeaderView.swift */; };
+		F35761EB213E5ADE00C3AFC2 /* ListenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761EA213E5ADE00C3AFC2 /* ListenOneViewController.swift */; };
+		F35761ED213E5AF300C3AFC2 /* ListenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761EC213E5AF300C3AFC2 /* ListenTwoViewController.swift */; };
+		F35761EF213E5B1900C3AFC2 /* ListenThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761EE213E5B1900C3AFC2 /* ListenThreeViewController.swift */; };
+		F35761F1213E5F3500C3AFC2 /* FMListenFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761F0213E5F3500C3AFC2 /* FMListenFooterView.swift */; };
+		F35761F3213E5FD800C3AFC2 /* ListenChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761F2213E5FD800C3AFC2 /* ListenChannelCell.swift */; };
+		F35761F5213E601100C3AFC2 /* FMListenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761F4213E601100C3AFC2 /* FMListenModel.swift */; };
+		F35761F7213E608C00C3AFC2 /* FMListenTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761F6213E608C00C3AFC2 /* FMListenTwoViewModel.swift */; };
+		F35761FA213E60F500C3AFC2 /* FMListenApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761F9213E60F500C3AFC2 /* FMListenApi.swift */; };
+		F35761FC213E625A00C3AFC2 /* ListenMoreChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35761FB213E625A00C3AFC2 /* ListenMoreChannelController.swift */; };
+		F3576200213E654F00C3AFC2 /* listenMoreChannel.json in Resources */ = {isa = PBXBuildFile; fileRef = F35761FD213E654200C3AFC2 /* listenMoreChannel.json */; };
+		F3576201213E654F00C3AFC2 /* listenRecommend.json in Resources */ = {isa = PBXBuildFile; fileRef = F35761FE213E654600C3AFC2 /* listenRecommend.json */; };
+		F3576202213E654F00C3AFC2 /* listenSubscibe.json in Resources */ = {isa = PBXBuildFile; fileRef = F35761FF213E654B00C3AFC2 /* listenSubscibe.json */; };
+		F3576204213E663F00C3AFC2 /* OneKeyListenLTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3576203213E663F00C3AFC2 /* OneKeyListenLTCell.swift */; };
+		F3576206213E6C7600C3AFC2 /* CVLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3576205213E6C7600C3AFC2 /* CVLayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +160,27 @@
 		F35761C6213D31AA00C3AFC2 /* OneKeyListenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneKeyListenCell.swift; sourceTree = "<group>"; };
 		F35761C8213D322600C3AFC2 /* RecommendLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendLiveCell.swift; sourceTree = "<group>"; };
 		F35761CA213D329D00C3AFC2 /* RecommendForYouCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendForYouCell.swift; sourceTree = "<group>"; };
+		F35761DA213E1FC800C3AFC2 /* HomeClassifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClassifyModel.swift; sourceTree = "<group>"; };
+		F35761DE213E217A00C3AFC2 /* HomeClassifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClassifyViewModel.swift; sourceTree = "<group>"; };
+		F35761E0213E22BD00C3AFC2 /* FMClassifyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMClassifyApi.swift; sourceTree = "<group>"; };
+		F35761E2213E2CB600C3AFC2 /* HomeClassifyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClassifyHeaderView.swift; sourceTree = "<group>"; };
+		F35761E4213E2CC200C3AFC2 /* HomeClassifyFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClassifyFooterView.swift; sourceTree = "<group>"; };
+		F35761E6213E2CD400C3AFC2 /* HomeClassifyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClassifyCell.swift; sourceTree = "<group>"; };
+		F35761E8213E5A8C00C3AFC2 /* FMListenHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMListenHeaderView.swift; sourceTree = "<group>"; };
+		F35761EA213E5ADE00C3AFC2 /* ListenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenOneViewController.swift; sourceTree = "<group>"; };
+		F35761EC213E5AF300C3AFC2 /* ListenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTwoViewController.swift; sourceTree = "<group>"; };
+		F35761EE213E5B1900C3AFC2 /* ListenThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenThreeViewController.swift; sourceTree = "<group>"; };
+		F35761F0213E5F3500C3AFC2 /* FMListenFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMListenFooterView.swift; sourceTree = "<group>"; };
+		F35761F2213E5FD800C3AFC2 /* ListenChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenChannelCell.swift; sourceTree = "<group>"; };
+		F35761F4213E601100C3AFC2 /* FMListenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMListenModel.swift; sourceTree = "<group>"; };
+		F35761F6213E608C00C3AFC2 /* FMListenTwoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMListenTwoViewModel.swift; sourceTree = "<group>"; };
+		F35761F9213E60F500C3AFC2 /* FMListenApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMListenApi.swift; sourceTree = "<group>"; };
+		F35761FB213E625A00C3AFC2 /* ListenMoreChannelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenMoreChannelController.swift; sourceTree = "<group>"; };
+		F35761FD213E654200C3AFC2 /* listenMoreChannel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listenMoreChannel.json; sourceTree = "<group>"; };
+		F35761FE213E654600C3AFC2 /* listenRecommend.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listenRecommend.json; sourceTree = "<group>"; };
+		F35761FF213E654B00C3AFC2 /* listenSubscibe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listenSubscibe.json; sourceTree = "<group>"; };
+		F3576203213E663F00C3AFC2 /* OneKeyListenLTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneKeyListenLTCell.swift; sourceTree = "<group>"; };
+		F3576205213E6C7600C3AFC2 /* CVLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVLayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +264,7 @@
 		F3087A7C2138E8FB005AB2BC /* Librartys */ = {
 			isa = PBXGroup;
 			children = (
+				F33F4549213F69A600DEF9B0 /* ZJYCycleBannerView */,
 				F3087B0A21393039005AB2BC /* Refresh */,
 				F3087AD621391AB1005AB2BC /* CustomLabel */,
 				F3087ACD21391AB0005AB2BC /* HHGuidePageHUD */,
@@ -256,6 +299,7 @@
 		F3087A892139052A005AB2BC /* FMListen */ = {
 			isa = PBXGroup;
 			children = (
+				F35761F8213E60DA00C3AFC2 /* Api */,
 				F3087A992139056A005AB2BC /* Controller */,
 				F3087A972139056A005AB2BC /* Model */,
 				F3087A982139056A005AB2BC /* View */,
@@ -341,12 +385,8 @@
 		F3087A9221390563005AB2BC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F3087AA92139061E005AB2BC /* FMHomeViewController.swift */,
-				F3087AEA21391F9C005AB2BC /* HomeReCommendViewController.swift */,
-				F3087AEC21391FAD005AB2BC /* HomeClassifyViewController.swift */,
-				F3087AEE21391FB8005AB2BC /* HomeVipViewController.swift */,
-				F3087AF021391FC4005AB2BC /* HomeLiveViewController.swift */,
-				F3087AF221391FDA005AB2BC /* HomeBroadcastViewController.swift */,
+				F35761D1213E1E3000C3AFC2 /* Classify */,
+				F35761CC213E1DBD00C3AFC2 /* Recommend */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -354,7 +394,8 @@
 		F3087A9321390563005AB2BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F3087B0D213936FC005AB2BC /* HomeRecommendModel.swift */,
+				F35761D2213E1E5E00C3AFC2 /* Classify */,
+				F35761CD213E1DF200C3AFC2 /* Recommend */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -362,22 +403,8 @@
 		F3087A9421390563005AB2BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F3087AF621392C29005AB2BC /* FMRecommendHeaderView.swift */,
-				F3087AF821392CDB005AB2BC /* FMRecommendFooterView.swift */,
-				F3087AFA21392D3C005AB2BC /* FMRecommendHeaderCell.swift */,
-				F3087AFC21392D4C005AB2BC /* FMRecommendGuessLikeCell.swift */,
-				F3087AFE21392D5C005AB2BC /* FMHotAudiobookCell.swift */,
-				F3087B0021392E07005AB2BC /* FMAdvertCell.swift */,
-				F3087B0221392E13005AB2BC /* FMOneKeyListenCell.swift */,
-				F3087B0421392E21005AB2BC /* FMRecommendForYouCell.swift */,
-				F3087B0621392E2D005AB2BC /* FMHomeRecommendLiveCell.swift */,
-				F35761BC213D04DA00C3AFC2 /* FMRecommendGridCell.swift */,
-				F35761BE213D04F300C3AFC2 /* RecommendNewsCell.swift */,
-				F35761C2213D268F00C3AFC2 /* FMGuessYouLikeCell.swift */,
-				F35761C4213D2F3800C3AFC2 /* HotAudiobookCell.swift */,
-				F35761C6213D31AA00C3AFC2 /* OneKeyListenCell.swift */,
-				F35761C8213D322600C3AFC2 /* RecommendLiveCell.swift */,
-				F35761CA213D329D00C3AFC2 /* RecommendForYouCell.swift */,
+				F35761D3213E1E6400C3AFC2 /* Classify */,
+				F35761CE213E1E0500C3AFC2 /* Recommend */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -385,7 +412,8 @@
 		F3087A9521390563005AB2BC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F3087B0821392F6A005AB2BC /* HomeRecommendViewModel.swift */,
+				F35761D4213E1E6A00C3AFC2 /* Classify */,
+				F35761CF213E1E1500C3AFC2 /* Recommend */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -393,6 +421,7 @@
 		F3087A962139056A005AB2BC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F35761F6213E608C00C3AFC2 /* FMListenTwoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -400,6 +429,7 @@
 		F3087A972139056A005AB2BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F35761F4213E601100C3AFC2 /* FMListenModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -407,6 +437,10 @@
 		F3087A982139056A005AB2BC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F35761E8213E5A8C00C3AFC2 /* FMListenHeaderView.swift */,
+				F35761F0213E5F3500C3AFC2 /* FMListenFooterView.swift */,
+				F35761F2213E5FD800C3AFC2 /* ListenChannelCell.swift */,
+				F3576203213E663F00C3AFC2 /* OneKeyListenLTCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -415,6 +449,10 @@
 			isa = PBXGroup;
 			children = (
 				F3087AAD2139063A005AB2BC /* FMListenViewController.swift */,
+				F35761EA213E5ADE00C3AFC2 /* ListenOneViewController.swift */,
+				F35761EC213E5AF300C3AFC2 /* ListenTwoViewController.swift */,
+				F35761EE213E5B1900C3AFC2 /* ListenThreeViewController.swift */,
+				F35761FB213E625A00C3AFC2 /* ListenMoreChannelController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -444,6 +482,7 @@
 		F3087A9D21390571005AB2BC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F3576205213E6C7600C3AFC2 /* CVLayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -580,10 +619,130 @@
 			path = Refresh;
 			sourceTree = "<group>";
 		};
+		F33F4549213F69A600DEF9B0 /* ZJYCycleBannerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZJYCycleBannerView;
+			sourceTree = "<group>";
+		};
 		F35761B9213CD91200C3AFC2 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				F35761D5213E1E7200C3AFC2 /* Classify */,
+				F35761D0213E1E1F00C3AFC2 /* Recommend */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		F35761CC213E1DBD00C3AFC2 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				F3087AA92139061E005AB2BC /* FMHomeViewController.swift */,
+				F3087AEA21391F9C005AB2BC /* HomeReCommendViewController.swift */,
+				F3087AEE21391FB8005AB2BC /* HomeVipViewController.swift */,
+				F3087AF021391FC4005AB2BC /* HomeLiveViewController.swift */,
+				F3087AF221391FDA005AB2BC /* HomeBroadcastViewController.swift */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		F35761CD213E1DF200C3AFC2 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				F3087B0D213936FC005AB2BC /* HomeRecommendModel.swift */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		F35761CE213E1E0500C3AFC2 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				F3087AF621392C29005AB2BC /* FMRecommendHeaderView.swift */,
+				F3087AF821392CDB005AB2BC /* FMRecommendFooterView.swift */,
+				F3087AFA21392D3C005AB2BC /* FMRecommendHeaderCell.swift */,
+				F3087AFC21392D4C005AB2BC /* FMRecommendGuessLikeCell.swift */,
+				F3087AFE21392D5C005AB2BC /* FMHotAudiobookCell.swift */,
+				F3087B0021392E07005AB2BC /* FMAdvertCell.swift */,
+				F3087B0221392E13005AB2BC /* FMOneKeyListenCell.swift */,
+				F3087B0421392E21005AB2BC /* FMRecommendForYouCell.swift */,
+				F3087B0621392E2D005AB2BC /* FMHomeRecommendLiveCell.swift */,
+				F35761BC213D04DA00C3AFC2 /* FMRecommendGridCell.swift */,
+				F35761BE213D04F300C3AFC2 /* RecommendNewsCell.swift */,
+				F35761C2213D268F00C3AFC2 /* FMGuessYouLikeCell.swift */,
+				F35761C4213D2F3800C3AFC2 /* HotAudiobookCell.swift */,
+				F35761C6213D31AA00C3AFC2 /* OneKeyListenCell.swift */,
+				F35761C8213D322600C3AFC2 /* RecommendLiveCell.swift */,
+				F35761CA213D329D00C3AFC2 /* RecommendForYouCell.swift */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		F35761CF213E1E1500C3AFC2 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				F3087B0821392F6A005AB2BC /* HomeRecommendViewModel.swift */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		F35761D0213E1E1F00C3AFC2 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
 				F35761BA213CD94C00C3AFC2 /* FMRecommendApi.swift */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		F35761D1213E1E3000C3AFC2 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				F3087AEC21391FAD005AB2BC /* HomeClassifyViewController.swift */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		F35761D2213E1E5E00C3AFC2 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				F35761DA213E1FC800C3AFC2 /* HomeClassifyModel.swift */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		F35761D3213E1E6400C3AFC2 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				F35761E2213E2CB600C3AFC2 /* HomeClassifyHeaderView.swift */,
+				F35761E4213E2CC200C3AFC2 /* HomeClassifyFooterView.swift */,
+				F35761E6213E2CD400C3AFC2 /* HomeClassifyCell.swift */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		F35761D4213E1E6A00C3AFC2 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				F35761DE213E217A00C3AFC2 /* HomeClassifyViewModel.swift */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		F35761D5213E1E7200C3AFC2 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				F35761E0213E22BD00C3AFC2 /* FMClassifyApi.swift */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		F35761F8213E60DA00C3AFC2 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F35761FD213E654200C3AFC2 /* listenMoreChannel.json */,
+				F35761FE213E654600C3AFC2 /* listenRecommend.json */,
+				F35761FF213E654B00C3AFC2 /* listenSubscibe.json */,
+				F35761F9213E60F500C3AFC2 /* FMListenApi.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -650,7 +809,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3087A742138E536005AB2BC /* LaunchScreen.storyboard in Resources */,
+				F3576201213E654F00C3AFC2 /* listenRecommend.json in Resources */,
+				F3576200213E654F00C3AFC2 /* listenMoreChannel.json in Resources */,
 				F3087AE021391AB1005AB2BC /* lead02.png in Resources */,
+				F3576202213E654F00C3AFC2 /* listenSubscibe.json in Resources */,
 				F3087ADF21391AB1005AB2BC /* lead01.png in Resources */,
 				F3087ADD21391AB1005AB2BC /* guide_btn_bg@2x.png in Resources */,
 				F3087A712138E536005AB2BC /* Assets.xcassets in Resources */,
@@ -742,12 +904,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3087AB221390654005AB2BC /* FMPlayerViewController.swift in Sources */,
+				F35761E9213E5A8C00C3AFC2 /* FMListenHeaderView.swift in Sources */,
 				F35761BF213D04F300C3AFC2 /* RecommendNewsCell.swift in Sources */,
+				F35761F7213E608C00C3AFC2 /* FMListenTwoViewModel.swift in Sources */,
 				F3087AA8213905FE005AB2BC /* BaseNavigationController.swift in Sources */,
+				F35761EB213E5ADE00C3AFC2 /* ListenOneViewController.swift in Sources */,
 				F3087A842138EA84005AB2BC /* UtilsDefine.swift in Sources */,
 				F3087AEF21391FB8005AB2BC /* HomeVipViewController.swift in Sources */,
+				F35761ED213E5AF300C3AFC2 /* ListenTwoViewController.swift in Sources */,
 				F3087AE321391AB1005AB2BC /* JCyclePictureView.swift in Sources */,
 				F3087B0C21393039005AB2BC /* URefresh.swift in Sources */,
+				F35761FA213E60F500C3AFC2 /* FMListenApi.swift in Sources */,
+				F35761F1213E5F3500C3AFC2 /* FMListenFooterView.swift in Sources */,
 				F3087AF321391FDA005AB2BC /* HomeBroadcastViewController.swift in Sources */,
 				F3087AC521390ABC005AB2BC /* WRNavigationBar.swift in Sources */,
 				F35761BB213CD94C00C3AFC2 /* FMRecommendApi.swift in Sources */,
@@ -757,10 +925,13 @@
 				F3087A882138EC86005AB2BC /* AppDelegate+AppService.swift in Sources */,
 				F3087AB021390647005AB2BC /* FMMineViewController.swift in Sources */,
 				F35761C3213D268F00C3AFC2 /* FMGuessYouLikeCell.swift in Sources */,
+				F35761DF213E217A00C3AFC2 /* HomeClassifyViewModel.swift in Sources */,
 				F3087AAC2139062C005AB2BC /* FMFindViewController.swift in Sources */,
 				F3087AC121390ABC005AB2BC /* WRCustomNavigationBar.swift in Sources */,
+				F35761EF213E5B1900C3AFC2 /* ListenThreeViewController.swift in Sources */,
 				F3087AF721392C29005AB2BC /* FMRecommendHeaderView.swift in Sources */,
 				F3087B0721392E2D005AB2BC /* FMHomeRecommendLiveCell.swift in Sources */,
+				F35761F3213E5FD800C3AFC2 /* ListenChannelCell.swift in Sources */,
 				F3087AAE2139063A005AB2BC /* FMListenViewController.swift in Sources */,
 				F35761C7213D31AA00C3AFC2 /* OneKeyListenCell.swift in Sources */,
 				F3087AB821390822005AB2BC /* YYBouncesContentView.swift in Sources */,
@@ -774,7 +945,9 @@
 				F3087AFB21392D3C005AB2BC /* FMRecommendHeaderCell.swift in Sources */,
 				F3087B0521392E21005AB2BC /* FMRecommendForYouCell.swift in Sources */,
 				F3087B0121392E07005AB2BC /* FMAdvertCell.swift in Sources */,
+				F35761E7213E2CD400C3AFC2 /* HomeClassifyCell.swift in Sources */,
 				F3087AE421391AB1005AB2BC /* YYCustomLabel.swift in Sources */,
+				F35761F5213E601100C3AFC2 /* FMListenModel.swift in Sources */,
 				F3087AE521391AB1005AB2BC /* UINavigationBar+YHIndicatorImage.m in Sources */,
 				F3087AEB21391F9C005AB2BC /* HomeReCommendViewController.swift in Sources */,
 				F3087AAA2139061E005AB2BC /* FMHomeViewController.swift in Sources */,
@@ -782,17 +955,24 @@
 				F3087AF921392CDB005AB2BC /* FMRecommendFooterView.swift in Sources */,
 				F3087AA6213905E0005AB2BC /* BaseViewController.swift in Sources */,
 				F3087B0321392E13005AB2BC /* FMOneKeyListenCell.swift in Sources */,
+				F35761E3213E2CB600C3AFC2 /* HomeClassifyHeaderView.swift in Sources */,
 				F3087AED21391FAD005AB2BC /* HomeClassifyViewController.swift in Sources */,
 				F3087B0921392F6A005AB2BC /* HomeRecommendViewModel.swift in Sources */,
+				F35761E5213E2CC200C3AFC2 /* HomeClassifyFooterView.swift in Sources */,
 				F3087AF121391FC4005AB2BC /* HomeLiveViewController.swift in Sources */,
+				F3576206213E6C7600C3AFC2 /* CVLayerView.swift in Sources */,
 				F3087ADE21391AB1005AB2BC /* HHGuidePageHUD.swift in Sources */,
 				F3087A862138EAA2005AB2BC /* ThridInfo.swift in Sources */,
 				F35761CB213D329D00C3AFC2 /* RecommendForYouCell.swift in Sources */,
+				F3576204213E663F00C3AFC2 /* OneKeyListenLTCell.swift in Sources */,
 				F3087AFF21392D5C005AB2BC /* FMHotAudiobookCell.swift in Sources */,
 				F3087AC321390ABC005AB2BC /* WRCycleScrollView.swift in Sources */,
+				F35761DB213E1FC800C3AFC2 /* HomeClassifyModel.swift in Sources */,
 				F35761C9213D322600C3AFC2 /* RecommendLiveCell.swift in Sources */,
 				F3087B0E213936FC005AB2BC /* HomeRecommendModel.swift in Sources */,
+				F35761FC213E625A00C3AFC2 /* ListenMoreChannelController.swift in Sources */,
 				F35761BD213D04DA00C3AFC2 /* FMRecommendGridCell.swift in Sources */,
+				F35761E1213E22BD00C3AFC2 /* FMClassifyApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

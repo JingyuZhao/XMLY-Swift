@@ -10,26 +10,27 @@ import UIKit
 
 class FMMineViewController: BaseViewController {
 
+    var testView:UIView = {
+        let view = UIView.init()
+        view.backgroundColor = UIColor.white
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let animationLayer = CVLayerView.init(frame: CGRect.init(x: 0, y: 0, width: 60, height: 60))
+        animationLayer.center = testView.center
+        
+        self.view.addSubview(testView)
+        testView.addSubview(animationLayer)
+        animationLayer .starAnimation()
+        testView.snp.makeConstraints { (make) in
+            make.size.equalTo(CGSize.init(width: 60, height: 60))
+            make.center.equalToSuperview()
+        }
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
